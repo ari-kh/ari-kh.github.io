@@ -5,6 +5,13 @@
     -o-background-size: cover;
 
 }*/
+#bio {
+    position: absolute;
+    bottom: 50%;
+    margin-left:-150px;
+    left: 35%;
+    font-family: sans-serif;
+}
 .button1 {
     background-color: rgb(0,0,0);
     border: none;
