@@ -1,0 +1,13 @@
+#mainbio {
+	float: right;
+	margin: 0 auto;
+	padding-right: 11%;
+}
+#img {
+	margin: 0 auto;
+	padding-left: 7%;
+	float: left;
+}
+#img, #mainbio{
+	display: inline;
+}
