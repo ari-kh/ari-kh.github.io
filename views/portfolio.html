@@ -3,65 +3,98 @@
 <link rel="icon" href="../img/ak2.png" sizes="64x64">
 <div class="classFont">
 	<div class="topnav" id="myTopnav">
-		<a href="../index.html">HOME</a>
-		<a href="../views/about.html">ABOUT</a>
-		<a href="../views/resume.pdf" target="_blank">RESUME</a>
-		<a href="../views/contact.html">CONTACT</a>
+		<a routerLink="" class="logo"><img src="../img/logo-white.png" height="48px" alt=""></a>
+		<a class= "nav" href="../index.html">HOME</a>
+		<a class= "nav" href="../views/about.html">ABOUT</a>
+		<a class= "nav" href="../views/resume.pdf" target="_blank">RESUME</a>
+		<a class = "nav" href="../views/contact.html">CONTACT</a>
 	</div>
 
 	<head>
 		<title>Portfolio</title>
-		<h1>Projects</h1>
-		<link rel="stylesheet" type="text/css" href="../css/main.css">
-		<link rel="stylesheet" type="text/css" href="../css/about.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/portfolio.css">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
 	</head>
 
 	<body>
-		<p>currently working on this</p>
-		<div>
-			<h2>InsightFacade UBC</h2>
-			<p> Developed a web app that enables effective querying of the metadata from UBC. Implemented a back-end system to process
-				JSON and HTML files and wrote EBNF based query language. Created UI for scheduling courses in rooms, finding the nearest
-				coffee shops, searching through courses and buildings at UBC. Used Typescript, Javascript, HTML, CSS, and Google Map
-				API to develop the web app.</p>
-		</div>
-		<div>
-			<h2>Profty</h2>
-			<p>Created a Chrome Extension to target cyberbullying, which won the Hack Harassment Category. The extension searches through
-				any webpage, censors black-listed words and replaces them with an appropriate emoji. Used JavaScript (JQuery), HTML,
-				and CSS.
-			</p>
-		</div>
-		<div>
-			<h2>Sword Ship</h2>
-			<p>Developed a 2D web game called “Sword Ship”, in which players loop and swoop around this abstract space like environment,
-				pick up weapons and fight with each other. Used C# and Unity.
-			</p>
-		</div>
-		<div>
-			<h2>Mind the Gap</h2>
-			<p>Implemented an android mobile application that maps the location of stops and routes of London, and retrieves real time
-				arrival information at those stops. Used Java and JUnit testing.
-			</p>
-		</div>
+        <section class="why-us" id="timeline">
+            <div class="section-timeline">
+                <div class="container">
+                    <h2 class="heading"> Projects</h2>
+                    <p class="lead under-heading"> Take a look at what I have done</p>
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-badge">2017</div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">InsightFacade UBC</h4>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>Jan - April 2017</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Developed a web app that enables effective querying of the metadata from UBC. Implemented a back-end system to process JSON and HTML files and wrote EBNF based query language. Created UI for scheduling courses in rooms, finding the nearest coffee shops, searching through courses and buildings at UBC. Used Typescript, Javascript, HTML, CSS, and Google Map API to develop the web app.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
 
-		<div id="social">
+                        <li class = "timeline-inverted">
+                            <div class="timeline-badge">2017</div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title"> Profty </h4>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>March 2017</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Created a Chrome Extension to target cyberbullying, which won the Hack Harassment Category. The extension searches through
+                                        any webpage, censors black-listed words and replaces them with an appropriate emoji. Used JavaScript (JQuery), HTML, and CSS.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="timeline-badge">2017</div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Sword Ship</h4>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>Jan - May 2017</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Developed a 2D web game called “Sword Ship”, in which players loop and swoop around this abstract space like environment, pick up weapons and fight with each other. Used C# and Unity.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
 
-			<!-- Add icon library -->
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-			<link rel="stylesheet" type="text/css" href="../css/contact.css">
-
-			<a href="mailto:ari.cnd@gmail.com" class="icon fa fa-envelope"></a>
-			<a href="https://www.linkedin.com/in/ari-kh/" target="_blank" class="fa fa-linkedin"></a>
-			<a href="https://github.com/ari-kh" target="_blank" class="fa fa-github"></a>
-			<a href="https://twitter.com/ari941" target="_blank" class="fa fa-twitter"></a>
-			<a href="https://www.facebook.com/ari941" target="_blank" class="fa fa-facebook"></a>
-
-		</div>
-
-	</body>
-
+                        <li class = "timeline-inverted">
+                            <div class="timeline-badge">2016</div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title"> Mind The Gap </h4>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>Jan - April 2016</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Implemented an android mobile application that maps the location of stops and routes of London, and retrieves real time
+                                        arrival information at those stops. Used Java and JUnit testing.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+        
+    <div id="social">
+			
+			<a href="mailto:thearikh@gmail.com" class="icon fa fa-envelope"></a>
+			<a href="https://www.linkedin.com/in/thearikh/" target="_blank" class="fa fa-linkedin"></a>
+			<a href="https://github.com/thearikh" target="_blank" class="fa fa-github"></a>
+			<a href="https://twitter.com/thearikh" target="_blank" class="fa fa-twitter"></a>
+			<a href="https://facebook.com/ari941" target="_blank" class="fa fa-facebook"></a>
+    </div>
+</body>
 </div>
-
-
 </html>

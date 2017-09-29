@@ -1,10 +1,9 @@
-/*body{
-    background: url("../views/images/UBC.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 
-}*/
+body{
+    height: 100%;
+    background: url(../img/pattern.jpg) center center;
+    font-family: courier new;
+}
 #main {
     position: absolute;
     bottom: 40%;
@@ -65,5 +64,9 @@
 
 .classFont{
      font-family: courier new;
+}
+
+.center{
+
 }
 

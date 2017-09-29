@@ -14,10 +14,10 @@
 
 }
 #social {
-	position: absolute;
+	position: relative;
 	bottom: 0;
-	margin-left:-150px;
-	left: 50%;
+	margin-right:150px;
+	right: 31%;
 	/*text-align: center;*/
 
 
