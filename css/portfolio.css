@@ -1,8 +1,6 @@
 
 /* SECTION TIMELINE */
-.section-timeline {
-    padding-top: 5rem;
-}
+
 .heading,
 .under-heading{
 	text-align: center;
@@ -188,6 +186,14 @@ CONTACT
 .fa-envelope {
 	color: black;
 }
+h1 {
+    font-weight: bold;
+    padding-top: 50px;
+}
+.underline{
+    border-bottom: 1px solid black;
+}
+
 
 
 

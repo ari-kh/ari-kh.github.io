@@ -50,3 +50,12 @@
     padding: 14px 16px;
    
 }
+
+.underline{
+    border-bottom: 1px solid black;
+}
+
+h1{
+    padding-top: 50px;
+    font-weight: bold;
+}
