@@ -5,8 +5,9 @@
 	<div class="topnav" id="myTopnav">
 		<a routerLink="" class="logo"><img src="../img/logo-white.png" height="48px" alt=""></a>
 		<a class= "nav" href="../index.html">HOME</a>
-		<a class = "nav" href="../views/portfolio.html">PORTFOLIO</a>
-		<a class = "nav" href="../views/contact.html">CONTACT</a>
+		<a class ="nav" href="../views/portfolio.html">PORTFOLIO</a>
+        <a class= "nav" href="../views/resume.pdf">RESUME</a>
+		<a class ="nav" href="../views/contact.html">CONTACT</a>
 	</div>
 
 	<head>
@@ -17,15 +18,23 @@
 	</head>
 
 	<body>
-		<div id="about">
-			<img id="img" src="../img/face2.png" style="width:345px;height:460px; float: left; padding-right: 5%" />
-			<p>
-				Hi there! <br> I'm a self-motivated 4th year Computer Science student at the University of British Columbia. I am passionate about technologies and web development. Currently, I'm working as a software developer at Mazdis Inc., which is a startup based in Vancouver, BC.<br>
-				<a href="../views/portfolio.html"> Please check out what projects I'm currently working on!</a>
-			</p>
-		</div>
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-sm-4">
+                    <img id="img" src="../img/face2.png" style="width:260px;height:360px; float: left; padding-right: 5%" />
+                </div>
+                <div class = "col-sm-8">
+                    <p>
+				        Hi there! <br> I'm a self-motivated 4th year Computer Science student at the University of British Columbia. I am passionate about technologies and web development. Currently, I'm working as a software developer at Mazdis Inc., a startup based in Vancouver, BC.<br>
+				        <a href="../views/portfolio.html"> Please check out what projects I'm currently working on!</a>
+			     </p>
+                </div>
+            </div>
+        </div>
 
-		<div id="social" style= "position: absolute">
+
+    <center>
+		<div id = "social">
 
 			<!-- Add icon library -->
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,11 +44,14 @@
 			<a href="https://www.linkedin.com/in/thearikh/" target="_blank" class="fa fa-linkedin"></a>
 			<a href="https://github.com/thearikh" target="_blank" class="fa fa-github"></a>
 			<a href="https://twitter.com/thearikh" target="_blank" class="fa fa-twitter"></a>
-			<a href="https://facebook.com/ari941" target="_blank" class="fa fa-facebook"></a>
+			<a href="https://facebook.com/ari941" target="_blank" class="fa fa-facebook-square"></a>
 
 		</div>
+        
+        </center>
 
 	</body>
+
 
 </div>
 

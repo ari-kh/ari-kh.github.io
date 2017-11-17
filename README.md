@@ -1,2 +1,2 @@
 # theAriKh.github.io
-This is my personal website (currently working on it). Used HTML and CSS.  
+The source code of my personal website.  Used HTML,  CSS and Bootstrap. Visit [www.arikh.ca](www.arikh.ca)

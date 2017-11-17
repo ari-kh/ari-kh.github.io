@@ -1,15 +1,15 @@
 
 body{
     height: 100%;
+    width: 100%;
     background: url(../img/pattern.jpg) center center;
     font-family: courier new;
 }
 #main {
     position: absolute;
     bottom: 40%;
-    left: 15%;
-    font-family: courier new;
-    width: 980px
+    left: 10%;
+    right: 10%;
 }
 .button1 {
     background-color: rgb(0,0,0);
@@ -65,8 +65,25 @@ body{
 .classFont{
      font-family: courier new;
 }
+.fa {
+    padding: 10px;
+    width: 40px;
+    text-decoration: none;
+    margin: 5px;
+    display: inline;
+    float: none;
+    transition: color .25s ease;
+    color: black;
+    font-size: 30px !important;
+}
+.fa:hover {
+    opacity: 0.7;
+}
 
-.center{
-
+#social{
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
 }
 
