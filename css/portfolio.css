@@ -53,6 +53,9 @@
     font-family: 'Nunito-Regular';
     font-weight: 700;
 }
+.timeline-panel{
+    background-color: white
+}
 
 
 .timeline > li:not(.timeline-inverted) {

@@ -1,5 +1,4 @@
 /* SOCIALS */
-
 .fa {
     padding: 10px;
     font-size: 30px;
@@ -45,7 +44,6 @@ fa:hover {
 .nav a:hover {
     background-color: #ddd;
     color: black;
-    
 }
 
 /* Add a color to the active/current link */
@@ -57,7 +55,6 @@ fa:hover {
     padding: 14px 16px;
    
 }
-
 
 /* SECTION CONTACT */
 
