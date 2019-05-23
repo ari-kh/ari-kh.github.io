@@ -1,59 +1,94 @@
 <!DOCTYPE html>
 <html>
-<link rel="icon" type="image/png" href="../img/ak2.png" sizes="64x64">
-<div class="classFont">
-	<div class="topnav" id="myTopnav">
-		<a routerLink="" class="logo"><img src="../img/logo-white.png" height="48px" alt=""></a>
-		<a class= "nav" href="../index.html">HOME</a>
-		<a class ="nav" href="../views/portfolio.html">PORTFOLIO</a>
-        <a class= "nav" href="../views/resume.pdf">RESUME</a>
-		<a class ="nav" href="../views/contact.html">CONTACT</a>
-	</div>
+  <link rel="icon" type="image/png" href="../img/ak2.png" sizes="64x64" />
+  <div class="classFont">
+    <div class="topnav" id="myTopnav">
+      <a routerLink="" class="logo"
+        ><img src="../img/logo-white.png" height="48px" alt=""
+      /></a>
+      <a class="nav" href="../index.html">HOME</a>
+      <a class="nav" href="../views/portfolio.html">PORTFOLIO</a>
+      <a class="nav" href="../views/resume.pdf" target="_blank">RESUME</a>
+      <a class="nav" href="../views/contact.html">CONTACT</a>
+    </div>
 
-	<head>
-		<title>About me</title>
-        <h1 align="center"><span class="underline">ABOUT ME</span></h1>
-		<link rel="stylesheet" type="text/css" href="../css/main.css">
-		<link rel="stylesheet" type="text/css" href="../css/about.css">
-	</head>
+    <head>
+      <title>About me</title>
+      <h1 align="center"><span class="underline">ABOUT ME</span></h1>
+      <link
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"
+      />
+      <link rel="stylesheet" type="text/css" href="../css/main.css" />
+      <link rel="stylesheet" type="text/css" href="../css/about.css" />
+    </head>
 
-	<body>
-        <div class = "container">
-            <div class = "row">
-                <div class = "col-sm-4">
-                    <img id="img" src="../img/face2.png" style="width:260px;height:360px; float: left; padding-right: 5%" />
-                </div>
-                <div class = "col-sm-8">
-                    <p>
-				        Hi there! <br> I'm a self-motivated 4th year CS undergraduate at the University of British Columbia in Vancouver, Canada. I am passionate about technologies and web development. Previously, I had the pleasure of interning as a full-stack software developer at Mazdis Inc., a startup based in Vancouver, BC. Currently, I’m interning at NetApp, where I work on StorageGRID, a object-based storage platform. <br>
-				        <a href="../views/portfolio.html"> Please check out what projects I'm currently working on!</a>
-			     </p>
-                </div>
-            </div>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <img id="img" src="../img/face2.png" class="img-fluid" />
+          </div>
+          <div class="col-sm-8" id="desciption">
+            <p>
+              Hi there! <br />
+              <br />
+              I'm a self-motivated 4th year CS undergraduate at the
+              <a href="https://www.ubc.ca/" target="_blank"
+                >University of British Columbia</a
+              >
+              in
+              <a href="https://en.wikipedia.org/wiki/Vancouver" target="_blank"
+                >Vancouver, Canada.</a
+              >
+              I'm passionate about technologies, and interested in web
+              development, big data and cloud technologies. Previously, I have
+              interned at
+              <a href="https://www.mazdis.com/" target="_blank">Mazdis</a> and
+              <a href="https://www.netapp.com/" target="_blank">NetApp</a> as a
+              software developer. Currently, I’m interning at
+              <a href="https://www.parsable.com/" target="_blank">Parsable</a>
+              as a software engineer where I'm part of the web engineering team
+              that is responsible for building consumer-facing web features of
+              Parsable platform.<br />
+              <br />
+              <a href="../views/portfolio.html">
+                Please check out what projects I'm currently working on!</a
+              >
+            </p>
+          </div>
         </div>
+      </div>
 
+      <center>
+        <div id="social">
+          <!-- Add icon library -->
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          />
+          <link rel="stylesheet" type="text/css" href="../css/contact.css" />
 
-    <center>
-		<div id = "social">
-
-			<!-- Add icon library -->
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-			<link rel="stylesheet" type="text/css" href="../css/contact.css">
-
-			<a href="mailto:thearikh@gmail.com" class="icon fa fa-envelope"></a>
-			<a href="https://www.linkedin.com/in/thearikh/" target="_blank" class="fa fa-linkedin"></a>
-			<a href="https://github.com/thearikh" target="_blank" class="fa fa-github"></a>
-			<a href="https://twitter.com/thearikh" target="_blank" class="fa fa-twitter"></a>
-			<a href="https://facebook.com/ari941" target="_blank" class="fa fa-facebook-square"></a>
-
-		</div>
-        
-        </center>
-
-	</body>
-
-
-</div>
-
-
+          <a href="mailto:thearikh@gmail.com" class="icon fa fa-envelope"></a>
+          <a
+            href="https://www.linkedin.com/in/thearikh/"
+            target="_blank"
+            class="fa fa-linkedin"
+          ></a>
+          <a
+            href="https://github.com/thearikh"
+            target="_blank"
+            class="fa fa-github"
+          ></a>
+          <a
+            href="https://twitter.com/thearikh"
+            target="_blank"
+            class="fa fa-twitter"
+          ></a>
+        </div>
+      </center>
+    </body>
+  </div>
 </html>
