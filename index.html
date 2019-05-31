@@ -2,49 +2,73 @@
 <html>
   <head>
     <title>Ari Khuyagbaatar</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="icon" href="img/ak2.png" sizes="64x64" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" type="text/css" href="./css/socials.css" />
   </head>
+
   <body>
-    <div id="main">
-      <center>
-        <a style="font-size:100px;">Ari Khuyagbaatar</a> <br />
-        <a style="font-size:20px;"
-          >software engineer and Computer Science student</a
-        >
-      </center>
+    <div class="container container-fluid" id="page-container">
+      <div
+        class="h-100 row justify-content-center align-items-center"
+        id="content-wrap"
+      >
+        <div>
+          <div class="text-center">
+            <a style="font-size:100px;">Ari Khuyagbaatar</a> <br />
+            <a style="font-size:20px;"
+              >software engineer and Computer Science student</a
+            >
+          </div>
+          <center>
+            <div class="btn-group" role="group">
+              <a href="views/about.html" class="button button1">ABOUT</a>
+              <a href="views/portfolio.html" class="button button2"
+                >PORTFOLIO</a
+              >
+              <a href="views/resume.pdf" target="_blank" class="button button3"
+                >RESUME</a
+              >
+              <a href="views/contact.html" class="button button4">CONTACT</a>
+            </div>
+          </center>
+        </div>
+      </div>
+      <footer class="social-footer">
+        <div class="container text-center">
+          <p><span class="underline"> Find me elsewhere</span></p>
 
-      <center>
-        <a href="views/about.html" class="button1">ABOUT</a>
-        <a href="views/portfolio.html" class="button2">PORTFOLIO</a>
-        <a href="views/resume.pdf" target="_blank" class="button3">RESUME</a>
-        <a href="views/contact.html" class="button4">CONTACT</a>
-      </center>
-
-      <center>
-        <div id="social">
           <a href="mailto:thearikh@gmail.com" class="icon fa fa-envelope"></a>
+
           <a
             href="https://www.linkedin.com/in/thearikh/"
             target="_blank"
             class="fa fa-linkedin"
           ></a>
+
           <a
             href="https://github.com/thearikh"
             target="_blank"
             class="fa fa-github"
           ></a>
+
           <a
             href="https://twitter.com/thearikh"
             target="_blank"
             class="fa fa-twitter"
           ></a>
         </div>
-      </center>
+      </footer>
     </div>
   </body>
 </html>

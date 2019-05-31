@@ -1,43 +1,43 @@
 <!DOCTYPE html>
-<link rel="icon" type="image/png" href="../img/ak2.png" sizes="64x64" />
-
-<div class="topnav" id="myTopnav" style="font-family: courier new">
-  <link
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-    crossorigin="anonymous"
-  />
-  <link rel="stylesheet" type="text/css" href="../css/main.css" />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
-  <link rel="stylesheet" type="text/css" href="../css/contactTwo.css" />
-
-  <a routerLink="" class="logo"
-    ><img src="../img/logo-white.png" height="48px" alt=""
-  /></a>
-  <a class="nav" href="../index.html">HOME</a>
-  <a class="nav" href="../views/about.html">ABOUT</a>
-  <a class="nav" href="../views/portfolio.html">PORTFOLIO</a>
-  <a class="nav" href="../views/resume.pdf">RESUME</a>
-</div>
 <html>
   <head>
     <title>Contact</title>
+    <link rel="icon" type="image/png" href="../img/ak2.png" sizes="64x64" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="../css/contact.css" />
+    <link rel="stylesheet" type="text/css" href="../css/socials.css" />
   </head>
 
   <body>
-    <div>
-      <h1>
-        <center><span class="underline"> GET IN TOUCH</span></center>
-      </h1>
-      <center>LETS START SOMETHING GREAT TOGETHER</center>
-
-      <div class="container">
+    <div class="container-fluid" id="page-container">
+      <div class="topnav" id="myTopnav">
+        <a routerLink="" class="logo"
+          ><img src="../img/logo-white.png" height="48px" alt=""
+        /></a>
+        <a class="nav" href="../index.html">HOME</a>
+        <a class="nav" href="../views/about.html">ABOUT</a>
+        <a class="nav" href="../views/portfolio.html">PORTFOLIO</a>
+        <a class="nav" href="../views/resume.pdf">RESUME</a>
+      </div>
+      <div id="content-wrap">
+        <h1 align="center"><span class="underline">GET IN TOUCH</span></h1>
+        <center>LETS START SOMETHING GREAT TOGETHER</center>
         <div class="row">
-          <div class="col-md-8" style="float: none; margin: 0 auto;">
+          <div
+            class="col-md-8"
+            style="float: none; margin: 0 auto; max-width: 760px;"
+          >
             <form
               class="form-horizontal"
               role="form"
@@ -97,31 +97,31 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <center>
-      <div id="social">
-        <link rel="stylesheet" type="text/css" href="../css/contact.css" />
-        <p><span class="underline"> Find me elsewhere</span></p>
-        <div>
+      <footer class="social-footer">
+        <div class="container text-center">
+          <p><span class="underline"> Find me elsewhere</span></p>
           <a href="mailto:thearikh@gmail.com" class="icon fa fa-envelope"></a>
+
           <a
             href="https://www.linkedin.com/in/thearikh/"
             target="_blank"
             class="fa fa-linkedin"
           ></a>
+
           <a
             href="https://github.com/thearikh"
             target="_blank"
             class="fa fa-github"
           ></a>
+
           <a
             href="https://twitter.com/thearikh"
             target="_blank"
             class="fa fa-twitter"
           ></a>
         </div>
-      </div>
-    </center>
+      </footer>
+    </div>
   </body>
 </html>

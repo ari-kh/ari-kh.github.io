@@ -1,218 +1,226 @@
 <!DOCTYPE html>
 <html>
-  <link rel="icon" href="../img/ak2.png" sizes="64x64" />
-  <div class="classFont">
-    <div class="topnav" id="myTopnav">
-      <a routerLink="" class="logo"
-        ><img src="../img/logo-white.png" height="48px" alt=""
-      /></a>
-      <a class="nav" href="../index.html">HOME</a>
-      <a class="nav" href="../views/about.html">ABOUT</a>
-      <a class="nav" href="../views/resume.pdf" target="_blank">RESUME</a>
-      <a class="nav" href="../views/contact.html">CONTACT</a>
-    </div>
+  <head>
+    <title>Portfolio</title>
+    <link rel="icon" href="../img/ak2.png" sizes="64x64" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="../css/portfolio.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/socials.css" />
+  </head>
 
-    <head>
-      <title>Portfolio</title>
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      />
-      <link
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous"
-      />
-      <link rel="stylesheet" type="text/css" href="../css/portfolio.css" />
-      <link rel="stylesheet" type="text/css" href="../css/main.css" />
-    </head>
+  <body>
+    <div id="page-container">
+      <div class="topnav" id="myTopnav">
+        <a routerLink="" class="logo"
+          ><img src="../img/logo-white.png" height="48px" alt=""
+        /></a>
+        <a class="nav" href="../index.html">HOME</a>
+        <a class="nav" href="../views/about.html">ABOUT</a>
+        <a class="nav" href="../views/resume.pdf" target="_blank">RESUME</a>
+        <a class="nav" href="../views/contact.html">CONTACT</a>
+      </div>
+      <div id="content-wrap">
+        <section class="why-us" id="timeline">
+          <div class="section-timeline">
+            <div class="container">
+              <h1 class="heading"><span class="underline">PROJECTS</span></h1>
+              <p class="lead under-heading">
+                Take a look at what I have done
+              </p>
+              <ul class="timeline">
+                <li class="timeline-inverted">
+                  <div class="timeline-badge">2018</div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">OneThird</h4>
+                      <p>
+                        <small class="text-muted"
+                          ><i class="fa fa-clock-o" aria-hidden="true"></i>Feb -
+                          May 2018</small
+                        >
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        In team of 3, created a web app that aims to reduce food
+                        wastage. The application allows users to donate food or
+                        receive food. Implemented both the front-end and the
+                        back-end of the system to create data models, relate
+                        data, display views and authenticate users. Used
+                        Node.js, Express and MongoDB.
+                      </p>
+                    </div>
+                  </div>
+                </li>
 
-    <body>
-      <section class="why-us" id="timeline">
-        <div class="section-timeline">
-          <div class="container">
-            <h1 class="heading"><span class="underline">PROJECTS</span></h1>
-            <p class="lead under-heading">Take a look at what I have done</p>
-            <ul class="timeline">
-              <li class="timeline-inverted">
-                <div class="timeline-badge">2018</div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="timeline-title">OneThird</h4>
-                    <p>
-                      <small class="text-muted"
-                        ><i class="fa fa-clock-o" aria-hidden="true"></i>Feb -
-                        May 2018</small
-                      >
-                    </p>
+                <li>
+                  <div class="timeline-badge">2018</div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Herddit</h4>
+                      <p>
+                        <small class="text-muted"
+                          ><i class="fa fa-clock-o" aria-hidden="true"></i>Jan
+                          2018</small
+                        >
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        In team of 4, created an Amazon’s Alexa Skill that
+                        browse Reddit for visually impaired people. Herddit
+                        reads posts and comments, and describes images, gifs and
+                        videos on Reddit. Used Python, AWS, Reddit API and
+                        Microsoft Vision API.
+                      </p>
+                    </div>
                   </div>
-                  <div class="timeline-body">
-                    <p>
-                      In team of 3, created a web app that aims to reduce food
-                      wastage. The application allows users to donate food or
-                      receive food. Implemented both the front-end and the
-                      back-end of the system to create data models, relate data,
-                      display views and authenticate users. Used Node.js,
-                      Express and MongoDB.
-                    </p>
-                  </div>
-                </div>
-              </li>
+                </li>
 
-              <li>
-                <div class="timeline-badge">2018</div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="timeline-title">Herddit</h4>
-                    <p>
-                      <small class="text-muted"
-                        ><i class="fa fa-clock-o" aria-hidden="true"></i>Jan
-                        2018</small
-                      >
-                    </p>
+                <li class="timeline-inverted">
+                  <div class="timeline-badge">2017</div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Hunger Games Simulator</h4>
+                      <p>
+                        <small class="text-muted"
+                          ><i class="fa fa-clock-o" aria-hidden="true"></i>Oct -
+                          Nov 2017</small
+                        >
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        In team of 4, created a web app based on the Hunger
+                        Games books and movies. The application allows users to
+                        take the role of a person watching the games from the
+                        outside the arena, whether as a Game-maker who can
+                        control the arena environment, confronting the
+                        contestants with assorted resources and dangers, or as a
+                        Capitol citizen who can view the contestants' current
+                        status and place bets on various contestants. Used PHP
+                        and mySQL
+                      </p>
+                    </div>
                   </div>
-                  <div class="timeline-body">
-                    <p>
-                      In team of 4, created an Amazon’s Alexa Skill that browse
-                      Reddit for visually impaired people. Herddit reads posts
-                      and comments, and describes images, gifs and videos on
-                      Reddit. Used Python, AWS, Reddit API and Microsoft Vision
-                      API.
-                    </p>
+                </li>
+                <li>
+                  <div class="timeline-badge">2017</div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">InsightFacade UBC</h4>
+                      <p>
+                        <small class="text-muted"
+                          ><i class="fa fa-clock-o" aria-hidden="true"></i>Jan -
+                          April 2017</small
+                        >
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        In team of 2, developed a web app that enables effective
+                        querying of the metadata from UBC. Implemented a
+                        back-end system to process JSON and HTML files and wrote
+                        EBNF based query language. Created UI for scheduling
+                        courses in rooms, finding the nearest coffee shops,
+                        searching through courses and buildings at UBC. Used
+                        Typescript, Javascript, HTML, CSS and Google Map API.
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </li>
+                </li>
 
-              <li class="timeline-inverted">
-                <div class="timeline-badge">2017</div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="timeline-title">Hunger Games Simulator</h4>
-                    <p>
-                      <small class="text-muted"
-                        ><i class="fa fa-clock-o" aria-hidden="true"></i>Oct -
-                        Nov 2017</small
-                      >
-                    </p>
+                <li class="timeline-inverted">
+                  <div class="timeline-badge">2017</div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Profty</h4>
+                      <p>
+                        <small class="text-muted"
+                          ><i class="fa fa-clock-o" aria-hidden="true"></i>March
+                          2017</small
+                        >
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        In team of 5, created a Chrome Extension that targets
+                        cyberbullying. The extension searches through any
+                        webpage, censors black-listed words and replaces them
+                        with an appropriate emoji. This project won 1st place in
+                        the Hack Harassment Category at nwHacks 2017, western
+                        Canada's largest hackathon. Used JavaScript (JQuery),
+                        HTML and CSS.
+                      </p>
+                    </div>
                   </div>
-                  <div class="timeline-body">
-                    <p>
-                      In team of 4, created a web app based on the Hunger Games
-                      books and movies. The application allows users to take the
-                      role of a person watching the games from the outside the
-                      arena, whether as a Game-maker who can control the arena
-                      environment, confronting the contestants with assorted
-                      resources and dangers, or as a Capitol citizen who can
-                      view the contestants' current status and place bets on
-                      various contestants. Used PHP and mySQL
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-badge">2017</div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="timeline-title">InsightFacade UBC</h4>
-                    <p>
-                      <small class="text-muted"
-                        ><i class="fa fa-clock-o" aria-hidden="true"></i>Jan -
-                        April 2017</small
-                      >
-                    </p>
-                  </div>
-                  <div class="timeline-body">
-                    <p>
-                      In team of 2, developed a web app that enables effective
-                      querying of the metadata from UBC. Implemented a back-end
-                      system to process JSON and HTML files and wrote EBNF based
-                      query language. Created UI for scheduling courses in
-                      rooms, finding the nearest coffee shops, searching through
-                      courses and buildings at UBC. Used Typescript, Javascript,
-                      HTML, CSS and Google Map API.
-                    </p>
-                  </div>
-                </div>
-              </li>
+                </li>
 
-              <li class="timeline-inverted">
-                <div class="timeline-badge">2017</div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="timeline-title">Profty</h4>
-                    <p>
-                      <small class="text-muted"
-                        ><i class="fa fa-clock-o" aria-hidden="true"></i>March
-                        2017</small
-                      >
-                    </p>
+                <li>
+                  <div class="timeline-badge">2017</div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Sword Ship</h4>
+                      <p>
+                        <small class="text-muted"
+                          ><i class="fa fa-clock-o" aria-hidden="true"></i>Jan -
+                          May 2017</small
+                        >
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        In team of 4, developed a 2D web game called “Sword
+                        Ship”. It is a physics based combat game where you fly
+                        vehicles that can wield a variety of giant weapons and
+                        fight with each other. Used C# and Unity.
+                      </p>
+                    </div>
                   </div>
-                  <div class="timeline-body">
-                    <p>
-                      In team of 5, created a Chrome Extension that targets
-                      cyberbullying. The extension searches through any webpage,
-                      censors black-listed words and replaces them with an
-                      appropriate emoji. This project won 1st place in the Hack
-                      Harassment Category at nwHacks 2017, western Canada's
-                      largest hackathon. Used JavaScript (JQuery), HTML and CSS.
-                    </p>
-                  </div>
-                </div>
-              </li>
+                </li>
 
-              <li>
-                <div class="timeline-badge">2017</div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="timeline-title">Sword Ship</h4>
-                    <p>
-                      <small class="text-muted"
-                        ><i class="fa fa-clock-o" aria-hidden="true"></i>Jan -
-                        May 2017</small
-                      >
-                    </p>
+                <li class="timeline-inverted">
+                  <div class="timeline-badge">2016</div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Mind The Gap</h4>
+                      <p>
+                        <small class="text-muted"
+                          ><i class="fa fa-clock-o" aria-hidden="true"></i>Jan -
+                          April 2016</small
+                        >
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Implemented an android mobile application that display
+                        the London underground map with stops, routes and train
+                        arrival times. Parsed JSON and XML data to generate
+                        routes. Designed JUnit tests for test-driven
+                        development. Used Java.
+                      </p>
+                    </div>
                   </div>
-                  <div class="timeline-body">
-                    <p>
-                      In team of 4, developed a 2D web game called “Sword Ship”.
-                      It is a physics based combat game where you fly vehicles
-                      that can wield a variety of giant weapons and fight with
-                      each other. Used C# and Unity.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="timeline-inverted">
-                <div class="timeline-badge">2016</div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4 class="timeline-title">Mind The Gap</h4>
-                    <p>
-                      <small class="text-muted"
-                        ><i class="fa fa-clock-o" aria-hidden="true"></i>Jan -
-                        April 2016</small
-                      >
-                    </p>
-                  </div>
-                  <div class="timeline-body">
-                    <p>
-                      Implemented an android mobile application that display the
-                      London underground map with stops, routes and train
-                      arrival times. Parsed JSON and XML data to generate
-                      routes. Designed JUnit tests for test-driven development.
-                      Used Java.
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </section>
-      <center>
-        <div>
+        </section>
+      </div>
+      <footer class="social-footer">
+        <div class="container text-center">
+          <p><span class="underline"> Find me elsewhere</span></p>
           <a href="mailto:thearikh@gmail.com" class="icon fa fa-envelope"></a>
           <a
             href="https://www.linkedin.com/in/thearikh/"
@@ -230,7 +238,7 @@
             class="fa fa-twitter"
           ></a>
         </div>
-      </center>
-    </body>
-  </div>
+      </footer>
+    </div>
+  </body>
 </html>

@@ -1,17 +1,20 @@
 body {
-  height: 100%;
   width: 100%;
   background: url(../img/pattern.jpg) center center;
   font-family: courier new;
 }
-#main {
-  position: absolute;
-  bottom: 40%;
-  left: 10%;
-  right: 10%;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
-.button1 {
-  background-color: rgb(0, 0, 0);
+
+.container {
+  height: 100%;
+}
+
+.button {
   border: none;
   color: white;
   padding: 15px 32px;
@@ -21,69 +24,43 @@ body {
   font-size: 25px;
   margin: 4px 2px;
   cursor: pointer;
+}
+.button1 {
+  background-color: rgb(50, 50, 50);
 }
 
 .button2 {
   background-color: rgb(90, 90, 90);
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  margin: 4px 2px;
-  cursor: pointer;
 }
 
 .button3 {
   background-color: #808080;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  margin: 4px 2px;
-  cursor: pointer;
-} /* Blue */
+}
 .button4 {
   background-color: rgb(200, 200, 200);
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  margin: 4px 2px;
-  cursor: pointer;
 }
 
 .classFont {
   font-family: courier new;
 }
-.fa {
-  padding: 10px;
-  width: 40px;
-  text-decoration: none;
-  margin: 5px;
-  display: inline;
-  float: none;
-  transition: color 0.25s ease;
-  color: black;
-  font-size: 30px !important;
-}
-.fa:hover {
-  opacity: 0.7;
+
+a:hover {
+  opacity: 0.8;
   color: black;
   text-decoration: none;
 }
 
-#social {
-  position: fixed;
-  bottom: 0;
-  left: 10%;
-  right: 10%;
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  padding: 0;
+}
+
+#content-wrap {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.underline {
+  border-bottom: 1px solid black;
 }

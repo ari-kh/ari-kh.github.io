@@ -1,22 +1,55 @@
-.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 40px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px;
-  display: inline;
-  float: none;
-  transition: color 0.25s ease;
-  color: black;
-}
-#social {
-  position: absolute;
-  bottom: 0;
-  left: 10%;
-  right: 10%;
+/* SECTION CONTACT */
+
+.section-contact {
+  background-color: white;
+  padding: 10rem 0;
 }
 
-.fa:hover {
-  opacity: 0.7;
+.control-label {
+  font-size: 20px;
+  line-height: 80%;
+  margin-top: 10px;
+}
+
+.form-control {
+  font-size: 18px;
+}
+
+.form-horizontal {
+  padding-top: 5rem;
+}
+
+textarea {
+  min-height: 150px;
+}
+textarea:focus,
+input:focus {
+  border-color: black !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 1px rgba(231, 76, 60, 0.05) !important;
+}
+
+.btn.btn-success {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 5rem;
+  transition: 0.5s;
+}
+
+.btn.btn-success:hover {
+  background-color: black;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+
+.underline {
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  padding-top: 50px;
+  font-weight: bold;
 }
