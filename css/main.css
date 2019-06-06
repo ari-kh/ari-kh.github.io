@@ -1,19 +1,17 @@
-body {
-  width: 100%;
-  background: url(../img/pattern.jpg) center center;
-  font-family: courier new;
-}
-
 html,
 body {
   height: 100%;
   margin: 0;
 }
 
+body {
+  width: 100%;
+  background: url(../img/pattern.jpg) center center;
+  font-family: courier new;
+}
 .container {
   height: 100%;
 }
-
 .button {
   border: none;
   color: white;
@@ -40,10 +38,6 @@ body {
   background-color: rgb(200, 200, 200);
 }
 
-.classFont {
-  font-family: courier new;
-}
-
 a:hover {
   opacity: 0.8;
   color: black;
@@ -54,6 +48,8 @@ a:hover {
   position: relative;
   min-height: 100vh;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 #content-wrap {
@@ -63,4 +59,47 @@ a:hover {
 
 .underline {
   border-bottom: 1px solid black;
+}
+
+h1 {
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.myName {
+  font-size: 120px;
+}
+.myDescription {
+  font-size: 20px;
+}
+
+/* temp solution for small screens */
+@media (max-width: 560px) {
+  .row {
+    display: block;
+    margin-top: 100px;
+  }
+  .myName {
+    font-size: 50px;
+  }
+  .myDescription {
+    font-size: 15px;
+  }
+  .button {
+    font-size: 15px;
+  }
 }

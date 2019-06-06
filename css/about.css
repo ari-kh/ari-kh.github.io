@@ -1,27 +1,10 @@
-#mainbio {
-  float: right;
-  margin: 0 auto;
-  padding-right: 11%;
-}
 #img {
   margin: 0;
   width: 260px;
   height: 260px;
   border-radius: 50%;
 }
-#img,
-#mainbio {
-  display: inline;
-}
 
-.underline {
-  border-bottom: 1px solid black;
-}
-
-h1 {
-  padding-top: 50px;
-  font-weight: bold;
-}
 a {
   text-decoration: none;
   font-weight: bolder;

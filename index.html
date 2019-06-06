@@ -9,7 +9,10 @@
       content="Software Engineer and Computer Science student"
     />
     <meta name="author" content="Ari Khuyagbaatar" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1 user-scalable=no"
+    />
 
     <!--Stylesheets and Bootsrap-->
     <link
@@ -25,6 +28,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" type="text/css" href="./css/socials.css" />
+    <link rel="stylesheet" type="text/css" href="./css/navbar.css" />
   </head>
 
   <body>
@@ -33,27 +37,42 @@
         class="h-100 row justify-content-center align-items-center"
         id="content-wrap"
       >
-        <div>
-          <div class="text-center">
-            <a style="font-size:100px;">Ari Khuyagbaatar</a> <br />
-            <a style="font-size:20px;"
-              >software engineer and Computer Science student</a
-            >
-          </div>
-          <center>
-            <div class="btn-group" role="group">
-              <a href="views/about.html" class="button button1">ABOUT</a>
-              <a href="views/portfolio.html" class="button button2"
-                >PORTFOLIO</a
-              >
-              <a href="views/resume.pdf" target="_blank" class="button button3"
-                >RESUME</a
-              >
-              <a href="views/contact.html" class="button button4">CONTACT</a>
+        <div class="text-center">
+          <a class="myName">Ari Khuyagbaatar</a> <br />
+          <a class="myDescription"
+            >Software Engineer and Computer Science student</a
+          >
+
+          <nav class="navbar navbar-expand-lg ">
+            <div class="nav-fill w-100 flex-md-row">
+              <ul class="navbar-nav navbar-center">
+                <li class="nav-item">
+                  <a class="button button1" href="./views/about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="button button2" href="./views/portfolio.html"
+                    >PORTFOLIO</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="button button3"
+                    href="../views/resume.pdf"
+                    target="_blank"
+                    >RESUME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="button button4" href="./views/contact.html"
+                    >CONTACT</a
+                  >
+                </li>
+              </ul>
             </div>
-          </center>
+          </nav>
         </div>
       </div>
+
       <footer class="social-footer">
         <div class="container text-center">
           <p><span class="underline"> Find me elsewhere</span></p>
