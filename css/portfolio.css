@@ -86,3 +86,19 @@
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
 }
+
+@media (max-width: 600px) {
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: left;
+  }
+  .timeline > li.timeline-inverted {
+    padding-left: 0px;
+  }
+  .timeline > li > .timeline-panel {
+    width: 100%;
+  }
+
+  .timeline > li:not(.timeline-inverted) {
+    padding-right: 0px;
+  }
+}

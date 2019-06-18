@@ -9,9 +9,7 @@ body {
   background: url(../img/pattern.jpg) center center;
   font-family: courier new;
 }
-.container {
-  height: 100%;
-}
+
 .button {
   border: none;
   color: white;
@@ -44,6 +42,10 @@ a:hover {
   text-decoration: none;
 }
 
+.container {
+  height: 100%;
+}
+
 #page-container {
   position: relative;
   min-height: 100vh;
@@ -66,8 +68,9 @@ h1 {
   font-weight: bold;
 }
 
-.footer {
+footer {
   flex-shrink: 0;
+  margin-top: 50px;
 }
 
 .content {
@@ -81,23 +84,116 @@ h1 {
 }
 
 .myName {
-  font-size: 120px;
+  font-size: 100px;
 }
 .myDescription {
   font-size: 20px;
 }
 
-/* temp solution for small screens */
-@media (max-width: 560px) {
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  display: inline;
+  float: none;
+  transition: color 0.25s ease;
+  color: black;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 7rem;
+  position: relative;
+}
+
+.social-footer {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+  min-height: 40px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-item {
+  padding: 5px 5px;
+}
+
+@media (max-width: 600px) {
+  .fa {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
   .row {
     display: block;
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .myName {
     font-size: 50px;
   }
   .myDescription {
     font-size: 15px;
+  }
+  .button {
+    font-size: 15px;
+  }
+}
+
+/* Landscape mode for smaller screen */
+@media (max-height: 400px) {
+  .myName {
+    font-size: 70px;
+  }
+  .myDescription {
+    font-size: 20px;
+  }
+  .button {
+    font-size: 15px;
+  }
+}
+
+@media (max-height: 414px) and (max-width: 736px) {
+  .myName {
+    font-size: 70px;
+  }
+  .myDescription {
+    font-size: 20px;
   }
   .button {
     font-size: 15px;
