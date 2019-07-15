@@ -5,13 +5,13 @@
   border-radius: 50%;
 }
 
-a {
+.content a {
   text-decoration: none;
   font-weight: bolder;
   color: black;
 }
 
-a:hover {
+.content a:hover {
   text-decoration: underline;
   opacity: 0.7;
   color: black;
